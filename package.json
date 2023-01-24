@@ -6,7 +6,7 @@
     "server": "nodemon --quiet server",
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "devStart": "nodemon server.js"
+    "devStart": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
